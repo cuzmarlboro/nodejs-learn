@@ -12,5 +12,5 @@
 // CommonJS 规范
 // CommonJS 规范提供了一个 module 对象，导出模块时候需要使用 module.exports
 
-// 导入
+// 导入 require('xxx')
 // 导出 module.exports = {xxx}
