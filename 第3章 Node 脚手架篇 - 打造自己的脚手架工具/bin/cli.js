@@ -15,38 +15,37 @@
 
 
 // 使用 commander 获取命令行参数
-// const { program } = require('commander')
+const { program } = require('commander')
 
-// program.option('-f --framwork <framwork>', '设置框架')
+program.option('-f --framwork <framwork>', '设置框架')
 // program.parse(process.argv)
 
 
 // #########
 
 // 使用 commander 处理自定义选项参数
-const { program } = require('commander')
+// const { program } = require('commander')
 
 // program.option('-f --framwork <framwork>', '设置框架')
 
 // #########
 // 模块化导入 help 处理模块
-const myHelp = require('../lib/core/help')
-myHelp(program)
-
+// const myHelp = require('../lib/core/help')
+// myHelp(program)
 // 创建出 create 命令选项
 // alias 是创建别名，执行 mycli create 和执行 mycli crt 效果一样
 // description 是创建说明内容
-// program.
-//     command('create <project> [other...]').
-//     alias('crt').
-//     description('创建项目').
-//     action((project, args) => {
-//         // 命令行执行逻辑代码
-//         console.log(project, args)
-//     })
+program.
+    command('create <project> [other...]').
+    alias('crt').
+    description('创建项目').
+    action((project, args) => {
+        // 命令行执行逻辑代码
+        console.log(project, args)
+    })
 
-const mycommander = require('../lib/core/mycommander')
-mycommander(program)
+// const mycommander = require('../lib/core/mycommander')
+// mycommander(program)
 
 
 
