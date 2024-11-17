@@ -1,3 +1,13 @@
+/*
+ * @Author: 何泽颖 hezeying@autowise.ai
+ * @Date: 2024-07-20 23:45:21
+ * @LastEditors: 何泽颖 hezeying@autowise.ai
+ * @LastEditTime: 2024-11-15 11:08:55
+ * @FilePath: /nodejs-learn/第4章 Node 原生实战篇 - 项目基建 - 原生Node 开发Web 服务器/server.js
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+ */
 // 1、导入 http 模块
 var http = require('http')
 var fs = require('fs')
@@ -19,7 +29,7 @@ server.on('request', function (req, res) {
 
 
     // // 设置响应头
-    // // res.setHeader('Content-type', 'text/plain;charset=utf-8') // 返回纯文本类型
+    // res.setHeader('Content-type', 'text/plain;charset=utf-8') // 返回纯文本类型
     // res.setHeader('Content-type', 'text/html;charset=utf-8') // 返回html文本类型
 
     // // req 请求数据信息，res 响应数据信息
