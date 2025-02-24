@@ -2,7 +2,7 @@
  * @Author: 何泽颖 hezeying@autowise.ai
  * @Date: 2024-11-15 21:23:36
  * @LastEditors: 何泽颖 hezeying@autowise.ai
- * @LastEditTime: 2024-11-17 14:16:21
+ * @LastEditTime: 2024-11-26 11:17:44
  * @FilePath: /nodejs-learn/express-project/app.js
  * @Description: 
  * 
@@ -26,7 +26,6 @@ app.use(morgan('dev'))
 app.use('/api/v1', router)
 // 挂载静态资中间件 （将public目录下的文件暴露出去）
 app.use(express.static('public'))
-
 
 
 const PORT = process.env.PORT || 8888

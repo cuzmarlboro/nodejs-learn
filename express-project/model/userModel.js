@@ -2,7 +2,7 @@
  * @Author: 何泽颖 hezeying@autowise.ai
  * @Date: 2024-11-16 13:56:05
  * @LastEditors: 何泽颖 hezeying@autowise.ai
- * @LastEditTime: 2024-11-16 17:18:05
+ * @LastEditTime: 2024-11-26 11:17:23
  * @FilePath: /nodejs-learn/express-project/model/userModel.js
  * @Description: 用户集合规则
  * 
@@ -16,7 +16,6 @@ const md5 = require('../util/md5')
 
 // 引入基础集合规则
 const baseModel = require('./baseModel')
-
 
 
 // 创建用户集合规则
