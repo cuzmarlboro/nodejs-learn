@@ -1,15 +1,13 @@
 /*
  * @Author: 何泽颖 hezeying@autowise.ai
  * @Date: 2024-11-16 14:36:14
- * @LastEditors: 何泽颖 hezeying@autowise.ai
- * @LastEditTime: 2024-11-17 13:43:36
- * @FilePath: /nodejs-learn/express-project/middleware/validator/userValidator.js
+ * @LastEditors: hezeying@xdf.cn
+ * @LastEditTime: 2025-03-20 17:32:41
+ * @FilePath: /express-project/middleware/validator/userValidator.js
  * @Description: 用户验证中间件
  * 
  * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
  */
-
-
 
 const { body } = require('express-validator')
 const { User } = require('../../model') // 引入用户集合

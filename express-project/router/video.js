@@ -1,10 +1,10 @@
 /*
  * @Author: 何泽颖 hezeying@autowise.ai
  * @Date: 2024-11-15 21:23:36
- * @LastEditors: 何泽颖 hezeying@autowise.ai
- * @LastEditTime: 2024-11-16 15:21:03
- * @FilePath: /nodejs-learn/express-project/router/video.js
- * @Description: 
+ * @LastEditors: hezeying@xdf.cn
+ * @LastEditTime: 2025-03-20 17:28:43
+ * @FilePath: /express-project/router/video.js
+ * @Description: 视频相关路由
  * 
  * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
  */
@@ -17,3 +17,4 @@ router.get('/lists', videoController.list)
 
 
 module.exports = router
+

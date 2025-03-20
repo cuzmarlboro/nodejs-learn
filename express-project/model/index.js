@@ -1,13 +1,3 @@
-/*
- * @Author: 何泽颖 hezeying@autowise.ai
- * @Date: 2024-11-16 13:37:29
- * @LastEditors: 何泽颖 hezeying@autowise.ai
- * @LastEditTime: 2024-11-16 17:06:23
- * @FilePath: /nodejs-learn/express-project/model/index.js
- * @Description: 
- * 
- * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
- */
 // 引入mongoose
 const mongoose = require('mongoose')
 

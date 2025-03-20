@@ -1,13 +1,3 @@
-/*
- * @Author: 何泽颖 hezeying@autowise.ai
- * @Date: 2024-11-15 21:23:36
- * @LastEditors: 何泽颖 hezeying@autowise.ai
- * @LastEditTime: 2024-11-26 11:17:44
- * @FilePath: /nodejs-learn/express-project/app.js
- * @Description: 
- * 
- * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
- */
 const express = require('express')
 const cors = require('cors')
 const morgan = require('morgan')
@@ -27,8 +17,10 @@ app.use('/api/v1', router)
 // 挂载静态资中间件 （将public目录下的文件暴露出去）
 app.use(express.static('public'))
 
-
+// 启动服务器
 const PORT = process.env.PORT || 8888
+// 监听端口
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`)
 })
+

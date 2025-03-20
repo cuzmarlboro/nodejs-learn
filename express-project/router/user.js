@@ -1,10 +1,10 @@
 /*
  * @Author: 何泽颖 hezeying@autowise.ai
  * @Date: 2024-11-15 21:23:36
- * @LastEditors: 何泽颖 hezeying@autowise.ai
- * @LastEditTime: 2024-11-17 13:59:18
- * @FilePath: /nodejs-learn/express-project/router/user.js
- * @Description: 
+ * @LastEditors: hezeying@xdf.cn
+ * @LastEditTime: 2025-03-20 17:33:18
+ * @FilePath: /express-project/router/user.js
+ * @Description: 用户相关路由
  * 
  * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
  */
@@ -14,7 +14,6 @@ const userController = require('../controller/userController') // 引入用户�
 const userValidator = require('../middleware/validator/userValidator') // 引入用户验证中间件
 const { verifyToken } = require('../util/jwt') // 引入jwt验证中间件
 const multer = require('multer') // 引入multer中间件，用于文件上传
-
 
 // 创建文件上传中间件，{ dest: 'public/' } 表示文件上传到public目录下
 const upload = multer({ dest: 'public/' })
@@ -29,3 +28,6 @@ router
 
 
 module.exports = router
+
+
+
